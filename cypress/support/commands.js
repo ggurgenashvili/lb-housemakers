@@ -19,6 +19,10 @@
 //
 // -- This is a dual command --
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
+Cypress.Commands.add('visithomemakers', () => {
+    cy.visit('https://home-makers-host.vercel.app/')
+
+})
 //
 //
 // -- This will overwrite an existing command --
